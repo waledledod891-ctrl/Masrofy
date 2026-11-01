@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.waled.masroofy'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.waled.masroofy'
+        minSdk 23
+        targetSdk 28
+        versionCode 2
+        versionName '1.1'
+    }
+}
+
+
+dependencies {
+    implementation 'androidx.biometric:biometric:1.1.0'
+}
